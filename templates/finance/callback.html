@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Result</title>
+</head>
+<body>
+{% if payment.is_paid %}
+پرداخت با موفقیت انجام شد.
+{% else %}
+پرداخت با خطا مواجه شد.
+{% endif %}
+</body>
+</html>

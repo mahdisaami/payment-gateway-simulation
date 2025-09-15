@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Purchase</title>
+</head>
+<body>
+<h1>Create Purchase</h1>
+
+{% if purchase %}
+<h3>
+    Purchase ID: {{ purchase.id }} created, status: {{ purchase.get_status_display }}<br>
+    <a href="{% url 'payment-link' payment.invoice_number %}">Pay with credit card</a>
+{% else %}
+    Purchase is not created.
+</h3>
+{% endif %}
+</body>
+</html>

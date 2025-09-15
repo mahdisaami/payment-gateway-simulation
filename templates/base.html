@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'catalogue/style.css' %}">
+    <link rel="stylesheet" href="{% static 'shipping/style.css' %}">
+    {% block extra_css %} {% endblock %}
+
+</head>
+<body>
+        {% include 'catalogue/partial/category_navbar.html' %}
+<!--        <h3> Hello from {{ request.user.username}}</h3><br>-->
+        {% block content %} {% endblock %}
+</body>
+</html>

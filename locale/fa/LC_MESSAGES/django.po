@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-15 17:15+0330\n"
+"PO-Revision-Date: 2025-09-15 16:28+0330\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.2\n"
+
+#: finance/models.py:26
+msgid "Saman"
+msgstr ""
+
+#: finance/models.py:27
+msgid "Shaparak"
+msgstr ""
+
+#: finance/models.py:28
+msgid "Finothech"
+msgstr ""
+
+#: finance/models.py:29
+msgid "Zarinpal"
+msgstr ""
+
+#: finance/models.py:30
+msgid "Parsian"
+msgstr ""
+
+#: finance/models.py:33
+msgid "gateway title"
+msgstr ""
+
+#: finance/models.py:34
+msgid "request URL"
+msgstr ""
+
+#: finance/models.py:35
+msgid "verify URL"
+msgstr ""
+
+#: finance/models.py:36
+msgid "gateway code"
+msgstr ""
+
+#: finance/models.py:37
+msgid "is enable"
+msgstr ""
+
+#: finance/models.py:38
+msgid "auth data"
+msgstr ""
+
+#: finance/models.py:44
+msgid "Gateway"
+msgstr ""
+
+#: finance/models.py:45
+msgid "Gateways"
+msgstr ""
+
+#: finance/models.py:77
+msgid "invoice number"
+msgstr ""
+
+#: finance/models.py:78
+msgid "amount"
+msgstr ""
+
+#: finance/models.py:80
+msgid "gateway"
+msgstr ""
+
+#: finance/models.py:82
+msgid "is paid"
+msgstr ""
+
+#: finance/models.py:83
+msgid "payment log"
+msgstr ""
+
+#: finance/models.py:85 purchase/models.py:17
+msgid "user"
+msgstr ""
+
+#: finance/models.py:87
+msgid "authority"
+msgstr ""
+
+#: finance/models.py:94
+msgid "Payment"
+msgstr ""
+
+#: finance/models.py:95
+msgid "Payments"
+msgstr ""
+
+#: finance/models.py:137
+msgid "Instant payment"
+msgstr ""
+
+#: package/models.py:5 package/models.py:27
+msgid "title"
+msgstr ""
+
+#: package/models.py:6 purchase/models.py:19
+msgid "price"
+msgstr ""
+
+#: package/models.py:7
+msgid "description"
+msgstr ""
+
+#: package/models.py:8
+msgid "days"
+msgstr ""
+
+#: package/models.py:9
+msgid "months"
+msgstr ""
+
+#: package/models.py:10
+msgid "is_enabled"
+msgstr ""
+
+#: package/models.py:12 package/models.py:29
+msgid "created_at"
+msgstr ""
+
+#: package/models.py:13 package/models.py:30
+msgid "modified_at"
+msgstr ""
+
+#: package/models.py:17 package/models.py:26 purchase/models.py:18
+msgid "package"
+msgstr ""
+
+#: package/models.py:18
+msgid "packages"
+msgstr ""
+
+#: package/models.py:34
+msgid "package attribute"
+msgstr ""
+
+#: package/models.py:35
+msgid "package attributes"
+msgstr ""
+
+#: purchase/models.py:13
+msgid "Paid"
+msgstr ""
+
+#: purchase/models.py:14
+msgid "No Paid"
+msgstr ""
+
+#: purchase/models.py:20
+msgid "status"
+msgstr ""
+
+#: purchase/models.py:22
+msgid "created at"
+msgstr ""
+
+#: purchase/models.py:23
+msgid "modified at"
+msgstr ""
+
+#: purchase/models.py:26
+msgid "purchase"
+msgstr ""
+
+#: purchase/models.py:27
+msgid "purchases"
+msgstr ""
+
+#: templates/package/pricing.html:13
+msgid "Pricing example for Bootstrap"
+msgstr "اشتراک ها"
+
+#: templates/package/pricing.html:32
+msgid "Support"
+msgstr "پشتیبانی"
+
+#, python-format
+#~ msgid "Purchase ID: %(purchase_id)s created, status: %(status)s"
+#~ msgstr "پرداخت(status)%"
+
+#, python-format
+#~ msgid " hi %(package.title)s "
+#~ msgstr " %(package.title)s "

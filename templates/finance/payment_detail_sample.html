@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Detail Sample</title>
+</head>
+<body>
+<h3>
+    Title: {{ payment.purchase.package }}<br>
+    Payment ID: {{ payment.payment_id }}<br>
+    Payment amount: {{ payment.amount }}<br><br>
+    Gateways: <br>
+    {% for gateway in gateways %}
+    <a href="{% url 'payment-gateway-sample' payment.invoice_number gateway.gateway_code %}">{{ gateway.title }}</a><br>
+    {% endfor %}
+</h3>
+
+
+</body>
+</html>
